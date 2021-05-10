@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://kit.fontawesome.com/eae6f2991c.js" crossorigin="anonymous"></script>
+</head>
+<body>    
+    <header class="header">
+        <nav class="navbar v-nav">
+            <a href="#home"> <ul class="nav-items"> <i class="fa fa-home"></i> Home </ul></a>
+            <a href="#about"> <ul class="nav-items">	
+                <i class="fa fa-info-circle"></i> About </ul></a>
+            <a href="#skills"> <ul class="nav-items">  <i class="fa fa-tasks"></i> Skills </ul></a>
+            <a href="#contact"><ul class="nav-items">  <i class="fa fa-user"></i> Contact </ul></a>
+        </nav>
+        <div class="menu" onclick="clicked()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+    
+    <section class="home" id="home">
+        <div class="home-h">
+            <p> Welcome to my Portfolio! </p>
+        </div>
+        <div class="img">
+            <img src="img/img.jpeg" alt="Me">
+        </div>
+        <div class="paras">
+            <p>A Full Stack Developer focusing on development using various techniques such as MEAN/MERN/XAMPP stacks and</p>
+            <p>Frameworks such as Angular, Ionic, React, etc.</p>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-h">
+            <p> About Me! </p>
+        </div>
+        <div class="box">
+            <div class="paras">
+                <ul class="about-p">
+                    <p>I am a Developer born in Solapur Maharashtra.</p>
+                    <p>Currently focusing on Programming and Development towards the human goodwill.</p>
+                    <p>My forte is Programming Languages like Java,C,C++,Python.</p>
+                    <p>I can also code in Scripting Languages such as PHP,JavaScript.</p>
+                    <p>I can create some cool websites using HTML, Pug(not what u thinking) and CSS.</p>
+                    <p>I can also develop WebApps in various frameworks such as Ionic, Angular, React.</p>
+                </ul>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="paras">
+                <ul class="about-p">
+                    <p>I have completed my School from SSEMHS Solapur in 2016 (85%)</p>
+                    <p>I have completed my Jr. College from Sangameshwar College in 2018 (65%)</p>
+                    <p>Im Currently pursuing B.Tech from NBNSCOE in CSE(As Expected!)</p>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="skills-h">
+            <p> My Skills! </p>
+        </div>
+
+        <div class="skill-container1">
+            <div class="circle java">
+                <p>Java</p>
+            </div>
+            <div class="circle c">
+                <p>C</p>
+            </div>
+            <div class="circle cpp">
+                <p>C++</p>
+            </div>
+            <div class="circle python">
+                <p>Python</p>
+            </div>
+        </div>
+        <div class="skill-container2">
+            <div class="circle angular">
+                <p>Angular</p>
+            </div><div class="circle html">
+                <p>HTML/CSS</p>
+            </div>
+            <div class="circle ionic">
+                <p>Ionic</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-h">
+            <p> Contact Me! </p>
+        </div>
+        <div class="form">
+            <form action="https://formspree.io/smustfa147@gmail.com" method="POST">
+                    <input type="text" class="form-control" placeholder="Name" name="Name" required>
+                    <input type="email" class="form-control" placeholder="Email" name="Email" required>
+                    <textarea class="form-control" placeholder="Message" name="Message" required></textarea>
+                <button class="btn" type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="social">
+            <p> @Mustafa Shaikh </p>
+            <div class="social-container">
+                <a href="https://github.com/itsMustafa" target="_blank"> <ul> <i class="fab fa-github"></i> </ul> </a>
+                <a href="https://t.me/@I_m_FlaSh" target="_blank"> <ul> <i class="fab fa-telegram"></i> </ul> </a>
+                <a href="https://www.instagram.com/__mustafa_shaikh__/" target="_blank"> <ul> <i class="fab fa-instagram"></i> </ul> </a>
+            </div>
+        </div>
+    </section>
+</body>
+<footer>
+    <p>Copyright &copy 2021 | Mustafa Shaikh | All rights reserved</p>
+</footer>
+<script src="js/responsive.js"></script>
+</html>
