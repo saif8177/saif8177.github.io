@@ -54,6 +54,12 @@
 
     .navbar {
         flex-direction: column;
+        display: none;
+    }
+
+    .v-nav {
+        display: flex;
+        transform: top 0.5s;
     }
 
     .menu {
