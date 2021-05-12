@@ -28,8 +28,7 @@
         height: 50%;
     }
 
-    .circle p {
-        margin-top: 80px;
+    .circle {
         font-size: 1.8vmax;
     }
 
@@ -69,10 +68,6 @@
     .circle {
         height: 60%;
         width: 35%;
-    }
-
-    .circle p {
-        margin-top: 40px;
     }
 
     .skill-container1 {
