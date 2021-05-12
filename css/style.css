@@ -205,7 +205,6 @@ a:active {
 }
 
 .circle {
-    color:#E9E9E9;
     height: 55%;
     width: 25%;
     border-radius: 50%;
@@ -213,16 +212,11 @@ a:active {
     display: flex;
     justify-content: center;
     text-align: center;
-    position: relative;
-}
-
-.circle p{
-    margin-top: 95px;
+    align-items: center;
     font-size: 1.5rem;
     color: #E9E9E9;
     font-family: 'Permanent Marker', cursive;
 }
-
 
 .contact {
     height: 90vh;
