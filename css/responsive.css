@@ -43,14 +43,10 @@
 
 @media only screen and (max-width: 520px) {
 
-    .navbar {
+    .navList {
+        top: -200px;
         flex-direction: column;
-        display: none;
-    }
-
-    .v-nav {
-        display: flex;
-        transform: top 0.5s;
+        transition: all 800ms ease;
     }
 
     .menu {
