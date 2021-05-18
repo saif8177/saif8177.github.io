@@ -271,6 +271,7 @@ input, textarea{
     font-family: 'Permanent Marker', cursive ;
     font-size: 1.2rem;
     outline: none;
+    border: none;
 }
 
 textarea {
