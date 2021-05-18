@@ -24,14 +24,6 @@
         font-size: 1.8vmax;
     }
 
-    .circle {
-        height: 50%;
-    }
-
-    .circle {
-        font-size: 1.8vmax;
-    }
-
     .skills {
         padding-top: 40px;
     }
@@ -65,20 +57,6 @@
         display: block;
     }
 
-    .circle {
-        height: 60%;
-        width: 35%;
-    }
-
-    .skill-container1 {
-        max-height: 170px;
-    }
-
-    .skill-container2 {
-        max-height: 170px;
-        align-items: unset;
-    }
-
     .contact {
         height: 80vh;
     }
@@ -96,3 +74,11 @@
     }
 
 }
+
+@media only screen and (max-width: 768px) {
+    .circle {
+        max-height: 8rem;
+        max-width: 8rem;
+    }
+}
+
