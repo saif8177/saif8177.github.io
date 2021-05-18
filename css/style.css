@@ -97,13 +97,13 @@ a:active {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #212121;
     transition: all 0.7s ease-in;
 }
 
 .home-h{
-    font-size: 3rem;
+    font-size: 2.8rem;
     color: #E9E9E9;
     font-family: 'Pacifico', cursive; 
 }
@@ -115,7 +115,7 @@ a:active {
 
 .paras {
     font-family: 'Permanent Marker', cursive ;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #E9E9E9;
 
 }
@@ -150,13 +150,13 @@ a:active {
     justify-content: space-around;
     background-color: #212121;
     transition: all 0.7s ease-in;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #E9E9E9;
     font-family: 'Pacifico', cursive;
 }
 
 .about-h{
-    font-size: 3rem;
+    font-size: 2.8rem;
     color: #E9E9E9;
     font-family: 'Pacifico', cursive; 
 }
@@ -178,7 +178,7 @@ a:active {
 }
 
 .skills-h {
-    font-size: 3rem;
+    font-size: 2.8rem;
     color: #E9E9E9;
     font-family: 'Pacifico', cursive;
 }
@@ -347,7 +347,7 @@ a:active {
     display: flex;
     flex-direction: column;
     font-family: 'Permanent Marker', cursive;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #E9E9E9;
     text-align: center;
     align-items: center;
@@ -357,7 +357,7 @@ a:active {
 }
 
 .contact-h {
-    font-size: 3rem;
+    font-size: 2.8rem;
     color: #E9E9E9;
     font-family: 'Pacifico', cursive;
 }

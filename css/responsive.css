@@ -1,27 +1,27 @@
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1024px) {
     .box {
         margin: 10px 35px;
         padding: 10px 10px;
     }
 
     .home-h {
-        font-size: 3.5vmax;
+        font-size: 3.2vmax;
     }
 
     .about-h {
-        font-size: 3.5vmax;
+        font-size: 3.2vmax;
     }
 
     .skills-h {
-        font-size: 3.5vmax;
+        font-size: 3.2vmax;
     }
 
     .contact-h {
-        font-size: 3.5vmax;
+        font-size: 3.2vmax;
     }
 
     .paras {
-        font-size: 1.8vmax;
+        font-size: 1.6vmax;
     }
 
     .skills {
@@ -29,11 +29,11 @@
     }
 
     input, textarea {
-        font-size: 1.8vmax;
+        font-size: 1.6vmax;
     }
 
     button {
-        font-size: 1.8vmax;
+        font-size: 1.6vmax;
     }
 
     .footer{
