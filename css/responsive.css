@@ -79,8 +79,16 @@
         align-items: unset;
     }
 
-    .skills {
-        padding-bottom: 30px;
+    .contact {
+        height: 80vh;
+    }
+
+    .social {
+        padding-top: 0;
+    }
+
+    .form {
+        width: 80%;
     }
 
     .social p{

@@ -227,7 +227,7 @@ a:active {
     color: #E9E9E9;
     text-align: center;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #212121;
     transition: all 0.7s ease-in;
 }
