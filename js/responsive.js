@@ -1,3 +1,7 @@
+ AOS.init({
+    duration: 1000
+ });
+
 addEventListener("load", function() {
     var viewport = document.querySelector("meta[name=viewport]");
     viewport.setAttribute("content", viewport.content + ", height=" + window.innerHeight);
